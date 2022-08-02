@@ -1,0 +1,9 @@
+os-sys
+opencv-python
+numpy 
+pyautogui
+sounddevice
+logging
+requests
+python-telegram-bot
+scipy
