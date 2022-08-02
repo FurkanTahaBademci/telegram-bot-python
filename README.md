@@ -20,3 +20,15 @@
 - Cancellation of computer shutdown
 - Locking the computer
 
+
+### Telegram, bilgisayarınızda çalışan python koduyla bot üzerinden iletişim kurmanızı sağlar. Bota telegram üzerinden mesaj gönderebilir ve şifrenizle uzaktan kumanda sağlayabilirsiniz. İletilerde tanımlanan görevleri uzaktan gerçekleştirebilirsiniz. Bu görevler aşağıda belirtilmiştir.
+
+### Kullanabileceğiniz özellikler
+- Kripto fiyat bilgisi
+- Ekran Görüntüsü
+- Ekran Kaydı
+- Ses Kaydı
+- Bilgisayarı uykuya alma
+- Bilgisayarı kapatma
+- Bilgisayar kapatma işlemini iptal etme 
+- Bilgisyarı kilitleme 
