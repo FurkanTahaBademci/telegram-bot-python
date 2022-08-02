@@ -11,10 +11,12 @@ src > cfg.py edit content
 
 
 ### Features that you can use
-
+- Crypto price info  
 - Screenshot
 - Screenrecord
 - Voice Record
-- Computer sleep
-- Computer shutdown 
-- Computer lock
+- Slepping off the computer
+- Turning off the computer
+- Cancellation of computer shutdown
+- Locking the computer
+
