@@ -20,6 +20,8 @@
 - Cancellation of computer shutdown
 - Locking the computer
 
+### Uygulamayı çalıştır
+### src > cfg.py içeriğini düzenle
 
 ### Telegram, bilgisayarınızda çalışan python koduyla bot üzerinden iletişim kurmanızı sağlar. Bota telegram üzerinden mesaj gönderebilir ve şifrenizle uzaktan kumanda sağlayabilirsiniz. İletilerde tanımlanan görevleri uzaktan gerçekleştirebilirsiniz. Bu görevler aşağıda belirtilmiştir.
 
