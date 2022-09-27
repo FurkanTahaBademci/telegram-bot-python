@@ -7,3 +7,4 @@ logging
 requests
 python-telegram-bot
 scipy
+pyautogui

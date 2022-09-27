@@ -10,6 +10,7 @@ import src.ses_keydetme as sess
 import datetime
 import os 
 import sys
+import pyautogui
 
 
 logger = logging.getLogger()
@@ -206,6 +207,18 @@ def mesaj_sil(update,context):
         except:
             pass
 
+def yaz(update, context):
+
+    yanit = admin_sorgu(update,context)
+ 
+    if yanit == "yes":
+
+        mess = update.message.text
+        mess = mess[4:]
+        pyautogui.write( mess , interval=0.01)
+        update.message.reply_text("Mesajınız yazılmıştır. Mesaj içeriği : ",mess)
+
+
 def error(update, context):
     """Log Errors caused by Updates."""
     logger.warning('Update "%s" caused error "%s"', update, context.error)
@@ -229,6 +242,8 @@ def main():
     dp.add_handler(CommandHandler("ekran", ekran))
     dp.add_handler(CommandHandler("video", video))
     dp.add_handler(CommandHandler("ses", ses))
+    dp.add_handler(CommandHandler("yaz", yaz))
+
     dp.add_handler(CommandHandler("botu_durdur", botu_durdur))
 
     dp.add_handler(MessageHandler(Filters.text, giris))
