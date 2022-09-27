@@ -41,5 +41,5 @@ ADMIN_SIFRE = "<TELEGRAM-ADMIN-SİFRE>"
 - Bilgisayarı uykuya alma
 - Bilgisayarı kapatma
 - Bilgisayar kapatma işlemini iptal etme 
-- Bilgisyarı kilitleme 
+- Bilgisayarı kilitleme 
 - Yazı yazma
