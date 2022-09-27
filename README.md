@@ -26,6 +26,7 @@ ADMIN_SIFRE = "<TELEGRAM-ADMIN-SİFRE>"
 - Turning off the computer
 - Cancellation of computer shutdown
 - Locking the computer
+- Write text
 
 ### Uygulamayı çalıştır
 ### src > cfg.py içeriğini düzenle
@@ -41,3 +42,4 @@ ADMIN_SIFRE = "<TELEGRAM-ADMIN-SİFRE>"
 - Bilgisayarı kapatma
 - Bilgisayar kapatma işlemini iptal etme 
 - Bilgisyarı kilitleme 
+- Yazı yazma
