@@ -3,7 +3,7 @@ numpy
 PyAutoGUI==0.9.53
 sounddevice==0.4.4
 logging
-requests==2.25.1
+requests==2.33.0
 python-telegram-bot==13.13
 scipy==1.8.0
 os-sys
